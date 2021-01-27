@@ -1,0 +1,59 @@
+body{
+
+    background-color: rgb(56, 141, 216);
+    font: normal 15pt Arial; 
+}
+
+header{
+    color: white;
+    text-align: center;
+    text-shadow:5px 5px 10px rgba(0, 0, 0, 0.568);
+}
+
+section{
+
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    color:rgb(56, 141, 216);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+div{
+
+    text-align: justify;   
+}
+
+input{
+
+    color:rgb(56, 141, 216);
+    border-radius: 5px;
+    border-color: white;   
+}
+
+input.botao{
+    height: 25px;
+    width: 75px;
+    font-weight: bold;
+}
+
+
+label{
+
+    color: rgb(56, 141, 216);
+}
+
+select{
+    background-color: aliceblue;
+    border-color:rgb(56, 141, 216);
+    color: rgb(56, 141, 216);
+    margin-left: 10px;
+}

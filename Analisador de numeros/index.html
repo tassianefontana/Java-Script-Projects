@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Analisador de números</h1>
+
+    </header>
+
+    <section>
+
+        <div>
+            <p>
+                <label for="number">Número (Entre 1 - 100):</label>
+                <input type="number" id="number">
+                <button type="submit" id="enviar" onclick="adicionar()">Adicionar</button>
+           
+            </p>
+
+            <p>
+                    <select name="lista" id="lista" size = "10">
+                        <option value="texto"></option>
+                    </select>
+                </p>
+            
+            <p>
+                <button type="submit" onclick="calcular()">Finalizar</button>
+            </p>
+        </div>
+
+        <div id="res">
+
+        
+        </div>
+
+    </section>
+
+    <section>
+
+        Digite os números desejados, ao clicar em "Finalizar" serão calculados:
+        <ul>
+            <li>O total de números inseridos</li>
+            <li>O maior número</li>
+            <li>O menor número</li>
+            <li>A soma dos números</li>
+            <li>A média entre os números</li>
+        </ul>
+    </section>
+
+    <script src="analisador.js"></script>
+    
+</body>
+
+
+</html>
